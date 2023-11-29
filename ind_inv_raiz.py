@@ -71,7 +71,7 @@ def save_inverted_index(inverted_index, output_file):
 
 def main():
     input_file = 'urls.txt'
-    output_file = 'inverted_index.txt'
+    output_file = 'raiz_ind_inv.txt'
 
     with open(input_file, 'r', encoding='utf-8', errors='ignore') as f:
         urls = [line.strip() for line in f.readlines()]
